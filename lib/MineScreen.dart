@@ -6,10 +6,10 @@ class MineScreen extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      appBar: AppBar(
-        title: Text('我的'),
-      ),
-      body: Center(
+      // appBar: AppBar(
+      //   title: Text('我的'),
+      // ),
+      body: SafeArea(
         child: Text('我的')
       )
     );
